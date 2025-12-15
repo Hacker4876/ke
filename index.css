@@ -1,0 +1,118 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.flow-circular-regular {
+    font-family: "Flow Circular", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.nav {
+    display: flex;                 
+    align-items: center;            
+    justify-content: space-between; 
+    list-style: none;               
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: inherit;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-container {
+    max-width: 1720px; 
+    max-height: 69px;    
+    margin: 0 auto;        
+    padding: 0 20px;       
+}
+
+.main {
+    width: 100%;
+    padding-top: 83px;
+}
+
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    padding-left: 117px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right img {
+    transform: translateY(-120px);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 719px;
+    max-height: 252px;
+    margin-top: 81px;
+}
+
+.first_text {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #777;
+    max-width: 200px;
+}
+
+.second_text {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.three {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.button {
+    margin-top: 24px;
+    padding: 30px 50px;
+    background: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sms {
+    margin-top: 118px;
+    max-width: 1080px;
+}
